@@ -16,7 +16,7 @@ if(!userId) {
 const config = {
   url: 'https://app.unleash-hosted.com/demo/api/proxy',
   clientKey: 'proxy-123',
-  refreshInterval: 4,
+  refreshInterval: 3,
   appName: 'react-app',
   environment: 'production',
   context: { userId },
