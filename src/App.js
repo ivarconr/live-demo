@@ -4,6 +4,7 @@ import { useFlag } from '@unleash/proxy-client-react';
 import { useVariant } from '@unleash/proxy-client-react';
 
 function App({userId}) {
+  const shouldRotate = useFlag('RotateLogo');
   const enabled = useFlag('AwsomeDemo');
   const variant = useVariant('AwsomeDemo');
 
@@ -13,7 +14,7 @@ function App({userId}) {
   return (
     <div className="App">
       <header className="App-header" style={{background: color}}>
-        {enabled ? <img src={logo} className="App-logo" alt="logo" /> : <p>Disabled</p>}
+        {enabled ? <img src={logo} className={shouldRotate ? "App-logo rotating" : "App-logo"} alt="logo" /> : <p>Disabled</p>}
         <h3>
           UserId: <strong>{userId}</strong>
         </h3>
