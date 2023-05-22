@@ -14,11 +14,10 @@ if(!userId) {
 
 
 const config = {
-  url: 'https://app.unleash-hosted.com/demo/api/proxy',
-  clientKey: 'proxy-123',
-  refreshInterval: 5,
+  url: 'https://app.unleash-hosted.com/demo/api/frontend',
+  clientKey: 'live-demo:default.2b1dc118b66fa2bdecf52ce08eabe42d13d915d9ed0d659b5876ff07',
+  refreshInterval: 1,
   appName: 'react-app',
-  environment: 'production',
   context: { userId },
 };
 
