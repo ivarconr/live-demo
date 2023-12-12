@@ -8,7 +8,7 @@ function App({userId}) {
   const enabled = useFlag('AwsomeDemo');
   const variant = useVariant('AwsomeDemo');
 
-  const color = enabled ? variant.name : 'silver';
+  const color = variant.enabled ? variant.name : 'silver';
   
 
   return (
