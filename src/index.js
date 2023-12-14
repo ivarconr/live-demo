@@ -14,8 +14,8 @@ if(!userId) {
 
 
 const config = {
-  url: 'http://localhost:4242/api/frontend',
-  clientKey: 'default:development.6c7c71bbed5785b778dd79a1d2cbc582b98bb905bc327375b4ac957d',
+  url: 'https://app.unleash-hosted.com/demo/api/frontend',
+  clientKey: 'live-demo:default.59a3a6a3cd5eec326027cab68deea1e2c9a0230f0c2ada37cc9d046c',
   refreshInterval: 2,
   appName: 'react-app',
   context: { userId },
