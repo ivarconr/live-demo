@@ -10,7 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "unleash-proxy-client": "3.3.0-alpha.3",
+    "unleash-proxy-client": "3.3.0-alpha.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -26,7 +26,7 @@
     ]
   },
   "resolutions": {
-    "unleash-proxy-client": "3.3.0-alpha.3"
+    "unleash-proxy-client": "3.3.0-alpha.4"
   },
   
   "browserslist": {
